@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #499fd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.g-top{
+    width: 100%;
+    height: 80px;
+    background-color: #0d2bd3;
+    display: flex;
+    padding: 0 22%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+
+}
+.portion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    h2{
+     font-size: 20px;
+    }
+}
+
+.box{
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  color: #0d2bd3;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g-btm{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #499fd8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bubble:hover{
+    background-color: #0d2bd3;
+}
+
+#skip, #newGame{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    color: #0d2bd3;
+    font-weight: 600;
+    font-size: 20px;
+    /* position: absolute;
+    right: 20px;
+    top: 20px; */
+    cursor: pointer;
+    transition: all .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+#skip:hover, #newGame:hover{
+   transform: scale(0.9);
+}
+
+.m-top{
+    margin-top: 130px;
+}
+@media (max-width: 520px) {
+    .g-top{
+        padding: 0 5%;
+        
+    }
+    .portion h2{
+      font-size: 12px;
+    }
+    .box, #skip, #newGame{
+        font-size: 9px;
+        height: 20px;
+        width: 20px;
+        border-radius: 2px;
+    }
+}
+@media (max-width: 800px) {
+    .g-top{
+        padding: 0 7%;
+        
+    }
+    .portion h2{
+      font-size: 15px;
+    }
+    .box, #skip, #newGame{
+        font-size: 12px;
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+    }
+}
+@media (max-width: 1400px){
+    .g-top{
+        padding: 0 12%;
+    }
+}
+@media (max-width: 440px){
+    .g-top{
+        padding: 0 4%;
+    }
+    .portion h2{
+        font-size: 9px;
+      }
+      .box, #skip, #newGame{
+          font-size: 10px;
+          height: 18px;
+          width: 18px;
+          border-radius: 2px;
+      }
+}
+
