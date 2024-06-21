@@ -118,6 +118,7 @@ html,body{
     }
     .portion h2{
       font-size: 12px;
+      gap: 5px;
     }
     .box, #skip, #newGame{
         font-size: 9px;
@@ -133,6 +134,7 @@ html,body{
     }
     .portion h2{
       font-size: 15px;
+      gap: 7px;
     }
     .box, #skip, #newGame{
         font-size: 12px;
@@ -152,6 +154,7 @@ html,body{
     }
     .portion h2{
         font-size: 9px;
+        gap: 4px;
       }
       .box, #skip, #newGame{
           font-size: 10px;
