@@ -116,9 +116,12 @@ html,body{
         padding: 0 5%;
         
     }
+    .portion{
+        gap: 3px;
+    }
     .portion h2{
       font-size: 12px;
-      gap: 5px;
+      
     }
     .box, #skip, #newGame{
         font-size: 9px;
@@ -134,7 +137,10 @@ html,body{
     }
     .portion h2{
       font-size: 15px;
-      gap: 7px;
+      
+    }
+    .portion{
+        gap: 5px;
     }
     .box, #skip, #newGame{
         font-size: 12px;
@@ -154,7 +160,10 @@ html,body{
     }
     .portion h2{
         font-size: 9px;
-        gap: 4px;
+        
+      }
+      .portion{
+        gap: 3px;
       }
       .box, #skip, #newGame{
           font-size: 10px;
